@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY GATE</title>
+    <style>.gate{
+        background-color: white ;
+        justify-content: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 500px;
+    }
+    .circle{
+        margin-left :190px ;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        border: 2px solid black;
+    }
+    .gat{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        text-align: center;
+        background-color:#28314e;
+        color: white;
+    }
+    .flex{
+        margin: 100px;
+        display:flex;
+        justify-content: center;
+    }
+        </style>
+</head>
+<body style="background-color:#667588 ;font-family: Arial, Helvetica, sans-serif;">
+   <div class="flex"> 
+    <div class="gat">
+        <div class="h1">
+            <h1>MY GATE</h1>
+            <h3 style="padding-right: 10px;padding-left: 10px;">This is just for security purposes
+                your data is safe with us !!</h3>
+                <div class="circle">
+                    
+                </div>
+        </div>
+</div>
+<div class="gate">
+<h1 style="text-align: center;"> ENTRY FORM</h1>
+<form  id="form" method="post" action="connect.php">
+    <div style="border-radius: 1rem;">
+        <input type="text" placeholder="Your Name" id="name" name="name" style="height: 40px;width:250px;">
+        <input type="number" placeholder="Phone No" id="number" name="number" style="height: 40px;width:250px;"><br><br><br>Upload Your Image-:
+        <!-- <input type="file" src="" alt="shikhar" name="img" placeholder="upload"><br><br><br> -->
+    <input type="date" placeholder="Time and Date" id="date" name="date" style="height: 40px;width:180px;">
+    <input type="time" placeholder="Time and Date" id="time" name="time" style="height: 40px;width:180px;">
+    <br><br><br>
+    <input type="text" placeholder="Whom to meet" id="meet" name="meet" style="height: 40px;width:250px;">
+    <input type="text" placeholder="flat no" id="flat" name="flat " style="height: 40px;width:250px;">
+    <br><br><br>
+   <label for="b1">
+    <a href="pass.html">
+        <input type="submit" value="Submit" id="b1" style="width: 150px;height: 30px;background-color: blue;border-radius:2px solid black;font-size: 25px;color: white; border-radius: .5rem;">
+    </a>
+   </label>
+    </div>
+</form>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
